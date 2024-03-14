@@ -41,25 +41,24 @@ body.dark-mode{
     opacity: 0.7;
 }
 
-
 .header{
     background-color: var(--color-bg-secondary);
-    padding: 10px;
+    padding: 20px;
 }
 
 .filter{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .search-country{
-    padding: 1rem;
+    padding: 16px;
     background-color: var(--color-bg-secondary);
     box-shadow: 11px 9px 9px -9px rgba(0, 0, 0, 0.155);
-    border-radius: 0.3rem;
+    border-radius: 3px;
 }
 
 .search-country i{
@@ -69,8 +68,8 @@ body.dark-mode{
 .search-country input{
     border: none;
     outline: none;
-    margin-left: 1rem;
-    margin-right: 3rem;
+    margin-left: 16px;
+    margin-right: 120px;
     background-color: var(--color-bg-secondary);
     color: var(--color-text);
 }
@@ -82,33 +81,39 @@ body.dark-mode{
 .cards{
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 45px;
     align-items: flex-start;
 }
 
 .card{
     background-color: var(--color-bg-secondary);
-    border-radius: 0.3rem;
+    border-radius: 3px;
+    overflow: hidden;
     box-shadow: 11px 11px 9px -9px rgba(0, 0, 0, 0.153);
-    flex: 22%;
+    flex: 17%;
+    border-radius: 3px;
 
 }
 
 .card img{
-    border-top-right-radius: 0.3rem;
-    border-top-left-radius: 0.3rem;
-    height: 8rem;
-    
+    height: 140px;
+    transition: 300ms;
+}
+
+.card img:hover{
+    transform: scale(1.15);
 }
 
 .card-info{
-    padding: 1.5rem;
-    overflow: hidden;
+    padding: 25px;
     text-overflow: ellipsis;
 }
 
 .card-info h3{
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .one{
@@ -126,11 +131,11 @@ body.dark-mode{
 
 .details-country{
     flex: 50%;
-    padding-left: 3rem;
+    padding-left: 20px;
 }
 
 .details-country h3{
-    padding-left: 1.5rem;
+    padding-left: 16px;
 }
 
 .info-one{
@@ -144,7 +149,7 @@ body.dark-mode{
 
 .one h3{
     font-size: 30px;
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
     gap: 10px;
 }
 
@@ -155,7 +160,7 @@ body.dark-mode{
     }
 
     .card img{
-        height: 17rem;
+        height: 300px;
     }
 
     .search-country input{

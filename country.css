@@ -44,27 +44,27 @@ body.dark-mode{
 
 .header{
     background-color: var(--color-bg-secondary);
-    padding: 10px;
+    padding: 20px;
 }
 
 .filter{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .filter a{
     padding: 6px 24px;
-    border-radius: 0.3rem;
+    border-radius: 3px;
     box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.153);
     text-decoration: none;
     color: (var(--color-text));
 }
 
 .search-country{
-    padding: 1rem;
+    padding: 10px;
     background-color: var(--color-bg-secondary);
     box-shadow: 11px 9px 9px -9px rgba(0, 0, 0, 0.155);
     border-radius: 0.3rem;
@@ -77,8 +77,8 @@ body.dark-mode{
 .search-country input{
     border: none;
     outline: none;
-    margin-left: 1rem;
-    margin-right: 3rem;
+    margin-left: 10px;
+    margin-right: 45px;
     background-color: var(--color-bg-secondary);
     color: var(--color-text);
 }
@@ -101,7 +101,7 @@ body.dark-mode{
 .details-country{
     width: 60%;
     align-items: center;
-    padding-left: 3rem;
+    padding-left: 45px;
     gap: 64px;
 }
 
@@ -118,7 +118,7 @@ body.dark-mode{
 
 .one h3{
     font-size: 30px;
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
     gap: 10px;
 }
 
@@ -132,12 +132,17 @@ body.dark-mode{
 
 .border-countries a{
     padding: 6px 24px;
-    border-radius: 0.3rem;
+    border-radius: 3px;
     box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.153);
     color: (var(--color-text));
     text-decoration: none;
     margin-left: 10px;
     margin-bottom: 8px;
+    transition: 300ms;
+}
+
+.border-countries a:hover{
+    transform: scale(1.05);
 }
 
 .borderTitle{
